@@ -1,10 +1,21 @@
 .wrapper {
-	color: red;
-}
-
-.container {
 	margin: 0 auto;
 	max-width: 1024px;
 	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.container {
+	display: flex;
 	justify-content: center;
+}
+
+.main {
+	flex: 1 1 auto;
+}
+
+.list {
+	display: flex;
+	justify-content: space-between;
 }
